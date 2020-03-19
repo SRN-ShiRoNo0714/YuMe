@@ -930,4 +930,4 @@ async def help(ctx,name=None):
 
         await ctx.send(embed=e)
 
-bot.run("NjU3OTM2MTYyOTY2NjAxNzQw.XnM9SA.fkqCdcKioTR2J1pa9lLBVU3PNuY")
+bot.run("")
