@@ -1050,4 +1050,4 @@ async def download(ctx):
     else:
         await ctx.send("霜月君はまだ引退しないよ()")
     
-bot.run("NjU3OTM2MTYyOTY2NjAxNzQw.XnbG2w.rQZONwOjBHtmWdWb9e4F4mxIphM")
+bot.run(token)
