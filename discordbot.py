@@ -1039,15 +1039,5 @@ async def help(ctx,name=None):
 
                 if page_count == 7:
                     await send_message.add_reaction("⬅")
-        
-##### 重大コマンド #####
-@bot.command(aliases=["dl"],description="重大コマンドです！\n結芽のソースダウンロードリンクを表示します。")
-async def download(ctx):
-    if ctx.message.author.id == 584008752005513216:
-        e = discord.Embed(title="ファイルをダウンロード",description="[ソースをダウンロード](https://www.mediafire.com/file/vlg2sye8556pn46/YuMe%60sbot-source.zip/file)\nMediaFireでダウンロードします。\n(上の青い文をクリック、タップするとサイトに飛びます。)",color=0x5dc7fc)
-    
-        await ctx.send(embed=e)
-    else:
-        await ctx.send("霜月君はまだ引退しないよ()")
     
 bot.run(token)
